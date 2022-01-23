@@ -1,0 +1,410 @@
+@charset "utf-8";
+#_yhteystiedot {
+	width: 100%;
+	position: relative;
+	z-index: 5;
+	background-color: #D9DADA;
+	float: left;
+	height: 100%;
+}
+.body_contact .contact #map {
+	border: 2px solid #DC410D;
+	position: relative;
+	float: left;
+	width: 560px;
+	height: 290px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.body_contact .contact .time {
+	float: right;
+	position: relative;
+	width: 282px;
+	height: 205px;
+	background-image: url(../image/kauppa/time.png);
+	background-repeat: no-repeat;
+}
+.body_contact .contact .address {
+	line-height: 0px;
+	position: relative;
+	width: 300px;
+	height: 250px;
+	margin-top: 30px;
+	float: right;
+	text-align: left;
+}
+.body_contact h2  {
+	top: 11px;
+	position: relative;
+	font-size: 40px;
+	margin-right: 0px;
+	margin-left: -3px;
+	margin-top: 0px;
+	line-height: 43px;
+}
+
+#_yhteystiedot .body_contact p {
+	text-align: center;
+	color: #404040;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	width: 100%;
+}
+.viesti #ajaxform .reset_button:hover {
+	border-color: #DC410D;
+	background-color: #D9DADA;
+	color: #DC410D;
+}
+.viesti #ajaxform .send_button:hover {
+	border-color: #DC410D;
+	background-color: #D9DADA;
+	color: #DC410D;
+}
+.viesti #ajaxform .name {
+	height: 35px;
+	position: relative;
+	border: thin solid #DC410D;
+	font: 20px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	clear: left;
+	padding-left: 5px;
+}
+.viesti #ajaxform .email {
+	height: 35px;
+	position: relative;
+	border: thin solid #DC410D;
+	font: 20px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	clear: left;
+	padding-left: 5px;
+	margin-top: 15px;
+}
+.viesti #ajaxform .subject {
+	position: relative;
+	border: thin solid #DC410D;
+	font: 20px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	clear: left;
+	height: 35px;
+	padding-left: 5px;
+	margin-top: 15px;
+}
+.viesti #ajaxform .message {
+	border: thin solid #DC410D;
+	font: 20px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	float: right;
+	clear: both;
+	position: relative;
+	height: 141px;
+	max-height: 141px;
+	padding-left: 5px;
+}
+#footer {
+	color: #D9DADA;
+	background-color: #262626;
+	text-align: center;
+	width: 100%;
+	position: relative;
+	z-index: 6;
+	float: left;
+	font-size: 10px;
+	height: 100%;
+}
+@font-face {
+    font-family: Electrolize;
+    src: url(../fonts/Electrolize-Regular.ttf);
+}
+@font-face {
+	font-family: Nixie-One;
+	src: url(../fonts/NixieOne-Regular.ttf);
+}
+@font-face {
+    font-family: Boogaloo;
+    src: url(../fonts/Boogaloo-Regular.ttf);
+}
+/*мобильный*/
+@media (max-width : 480px ){
+#_yhteystiedot .body_contact .contact {
+	margin-left: auto;
+	margin-right: auto;
+	width: 305px;
+	clear: both;
+	position: relative;
+	height: 330px;
+}
+
+#_yhteystiedot .body_contact .viesti {
+	width: 300px;
+	height: 432px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+.body_contact .viesti form {
+	width: 300px;
+	height: 394px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+}
+.viesti #ajaxform .name {
+	width: 290px;
+}
+.viesti #ajaxform .email {
+	width: 290px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.viesti #ajaxform .subject {
+	width: 290px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.viesti #ajaxform .message {
+	max-width: 290px;
+	width: 290px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+.viesti #ajaxform .send_button {
+	width: 250px;
+	height: 50px;
+	position: relative;
+	font: 400 normal 30px electrolize;
+	border-radius: 10px;
+	top: 40px;
+	background-color: #DC410D;
+	border: 3px solid #DC410D;
+	color: #262626;
+	margin-left: auto;
+	margin-right: auto;
+	left: 25px;
+}
+
+}
+
+/*Планшетный*/
+@media (min-width : 481px ) and (max-width : 768px ){
+#_yhteystiedot .body_contact .contact {
+	margin-left: auto;
+	margin-right: auto;
+	width: 270px;
+	clear: both;
+	position: relative;
+	height: 270px;
+	padding-bottom: 35px;
+}
+#_yhteystiedot .body_contact .viesti {
+	width: 350px;
+	height: 432px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+.body_contact .viesti form {
+	width: 350px;
+	height: 394px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+}
+.viesti #ajaxform .name {
+	width: 340px;
+}
+.viesti #ajaxform .email {
+	width: 340px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.viesti #ajaxform .subject {
+	width: 340px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.viesti #ajaxform .message {
+	max-width: 340px;
+	width: 340px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+.viesti #ajaxform .send_button {
+	width: 250px;
+	height: 50px;
+	position: relative;
+	font: 400 normal 30px electrolize;
+	border-radius: 10px;
+	top: 40px;
+	background-color: #DC410D;
+	border: 3px solid #DC410D;
+	color: #262626;
+	margin-left: auto;
+	margin-right: auto;
+	left: 45px;
+}
+#_yhteystiedot .body_contact .map {
+	width: 440px;
+	height: 260px;
+	padding-right: 3px;
+	padding-left: 0px;
+	display: none;
+}
+
+}
+
+/*гибридный*/
+@media (max-width : 768px ){
+.viesti #ajaxform .reset_button {
+	display: none;
+}
+#_yhteystiedot .body_contact .address {
+	margin-left: 5px;
+}
+.body_contact .contact #map {
+	display: none;
+}
+
+.body_contact .contact .address {
+	left: -5px;
+}
+
+}
+
+/*гибридный*/
+@media (min-width : 769px ){
+#_yhteystiedot .body_contact .contact {
+	position: relative;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+}
+.body_contact .viesti form {
+	width: 710px;
+	height: 260px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.viesti #ajaxform .name {
+	width: 340px;
+}
+.viesti #ajaxform .email {
+	width: 340px;
+}
+.viesti #ajaxform .subject {
+	width: 340px;
+}
+.viesti #ajaxform .message {
+	margin-top: -147px;
+	max-width: 340px;
+	width: 340px;
+}
+.viesti #ajaxform .reset_button {
+	width: 250px;
+	height: 50px;
+	position: relative;
+	font: 400 normal 30px electrolize;
+	border-radius: 10px;
+	float: left;
+	top: 20px;
+	border: 3px solid #DC410D;
+	background-color: #DC410D;
+	color: #262626;
+	left: 49px;
+	cursor: pointer;
+}
+.viesti #ajaxform .send_button {
+	width: 250px;
+	height: 50px;
+	position: relative;
+	font: 400 normal 30px electrolize;
+	float: left;
+	border-radius: 10px;
+	top: 20px;
+	left: 164px;
+	background-color: #DC410D;
+	border: 3px solid #DC410D;
+	color: #262626;
+	cursor: pointer;
+}
+
+}
+
+/*Планшетный*/
+@media (min-width : 769px ) and (max-width : 959px ){
+#_yhteystiedot .body_contact .contact {
+	height: 500px;
+	width: 672px;
+}
+#_yhteystiedot .body_contact h1 {
+	float: left;
+}
+
+#_yhteystiedot .body_contact .time {
+	float: left;
+	margin-top: 20px;
+}
+.body_contact .contact .address {
+	float: left;
+	margin-top: 85px;
+	width: 90%;
+}
+
+#_yhteystiedot .body_contact .viesti {
+	margin-left: -360px;
+	width: 720px;
+	height: 280px;
+	float: left;
+	left: 50%;
+	position: relative;
+}
+
+}
+
+/*Персональный*/
+@media (min-width : 960px ) and (max-width : 1199px ){
+#_yhteystiedot .body_contact .contact {
+	width: 920px;
+	height: 300px;
+}
+#_yhteystiedot .body_contact .viesti {
+	margin-left: -360px;
+	width: 720px;
+	height: 280px;
+	float: left;
+	left: 50%;
+	position: relative;
+}
+
+}
+
+@media (min-width : 1200px ){
+#_yhteystiedot .body_contact {
+	width: 1150px;
+	height: 930px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#_yhteystiedot .body_contact .contact {
+	width: 940px;
+	height: 300px;
+}
+#_yhteystiedot .body_contact .viesti {
+	margin-left: -360px;
+	width: 720px;
+	height: 280px;
+	float: left;
+	left: 50%;
+	position: relative;
+}
+
+}

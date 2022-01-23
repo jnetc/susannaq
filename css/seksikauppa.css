@@ -1,0 +1,239 @@
+@charset "utf-8";
+#_seksikauppa {
+	width: 100%;
+	z-index: 4;
+	background-color: #262626;
+	position: relative;
+	float: left;
+	height: 100%;
+}
+#_seksikauppa .body_sex p {
+	color: #D9DADA;
+	text-align: center;
+	position: relative;
+	clear: both;
+}
+#_seksikauppa .body_sex .pic_body {
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	float: none;
+}
+#_seksikauppa .body_sex .button:hover {
+	color: #DC410D;
+	background-color: #262626;
+}
+#_seksikauppa .body_sex h2 {
+	position: relative;
+	color: #DC410D;
+	font-size: 16px;
+	clear: both;
+	text-align: center;
+	margin-bottom: 40px;
+}
+#_seksikauppa img  {
+	border: 5px solid #DC410D;
+	border-radius: 160px;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+#_seksikauppa img:hover {
+	border-color: #FFFFFF;
+}
+
+/*мобильный*/
+@media (max-width : 480px ){
+#_seksikauppa {
+	top: 450px;
+}
+#_seksikauppa .body_sex .pic_body {
+	width: 230px;
+	height: 225px;
+}
+.pic_body .pic2 img {
+	display: none;
+}
+
+}
+
+/*Планшетный*/
+@media (min-width : 481px ) and (max-width : 768px ){
+#_seksikauppa {
+	top: 450px;
+}
+#_seksikauppa .body_sex .pic_body {
+	height: 225px;
+	width: 440px;
+}
+
+}
+
+/*гибридный*/
+@media (max-width : 768px ){
+#_seksikauppa .body_sex .text {
+	font-size: 27px;
+	padding-left: 20px;
+	text-shadow: 0px 0px;
+	color: #DDDDDD;
+	margin-top: 0px;
+}
+#_seksikauppa .body_sex p {
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+#_seksikauppa .body_sex .button {
+	display: none;
+}
+.pic_body .pic1 img {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.pic_body .pic2 img {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.pic_body .pic3 img {
+	display: none;
+}
+.pic_body .pic4 img {
+	display: none;
+}
+.pic_body .pic5 img {
+	display: none;
+}
+#_seksikauppa .body_sex h2 {
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+
+}
+
+/*гибридный*/
+@media (min-width : 769px ){
+#_seksikauppa .body_sex .text {
+	font-size: 30px;
+	padding-left: 20px;
+	text-shadow: 0px 0px;
+	color: #DDDDDD;
+	margin-top: -30px;
+}
+#_seksikauppa .body_sex p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#_seksikauppa .body_sex .button {
+	border-radius: 15px;
+	background-color: #DC410D;
+	color: #262626;
+	font: 400 normal 48px/85px electrolize;
+	border: 3px solid #DC410D;
+	text-align: center;
+	width: 445px;
+	height: 80px;
+	margin-right: auto;
+	margin-left: auto;
+	position: static;
+	clear: both;
+}
+.pic_body .pic1 img {
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 170px;
+	height: 170px;
+}
+.pic_body .pic2 img {
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 170px;
+	height: 170px;
+}
+.pic_body .pic3 img {
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 170px;
+	height: 170px;
+}
+.pic_body .pic4 img {
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 170px;
+	height: 170px;
+}
+.pic_body .pic5 img {
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 170px;
+	height: 170px;
+}
+#_seksikauppa .body_sex h2 {
+	margin-right: 3%;
+	margin-left: 3%;
+}
+#_seksikauppa .body_sex .text1 {
+	float: left;
+	font-size: 35px;
+
+}
+
+
+
+
+}
+
+/*Планшетный*/
+@media (min-width : 769px ) and (max-width : 959px ){
+#_seksikauppa {
+	top: 460px;
+}
+#_seksikauppa .body_sex {
+	height: 100%;
+}
+#_seksikauppa .body_sex .pic_body {
+	width: 600px;
+
+}
+.pic_body .pic4 img {
+	display: none;
+}
+.pic_body .pic5 img {
+	display: none;
+}
+
+}
+
+/*Персональный*/
+@media (min-width : 960px ) and (max-width : 1199px ){
+#_seksikauppa {
+	top: 560px;
+}
+#_seksikauppa .body_sex {
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#_seksikauppa .body_sex .pic_body {
+	width: 800px;
+}
+.pic_body .pic5 img {
+	display: none;
+}
+
+}
+
+@media (min-width:1200px){
+#_seksikauppa {
+	top: 700px;
+}
+#_seksikauppa .body_sex {
+	height: 100%;
+	width: 1150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#_seksikauppa .body_sex .pic_body {
+	margin-left: 75px;
+}
+
+}

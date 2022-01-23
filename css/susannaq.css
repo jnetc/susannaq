@@ -1,0 +1,239 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	background-color: #000000;
+	width: 100%;
+	height: 100%;
+}
+/* ссылки навигатора*/
+a {
+	text-decoration: none;
+	color: #D9DADA;
+}
+a:hover{
+color: #DC410D;
+}
+a:focus {
+ color: #DC410D;
+ }
+h2, pre, li, p {
+	font-weight: 400;
+	font-variant: normal;
+	font-style: normal;
+	font-family: electrolize;
+}
+h3 {
+	color: #DC410D;
+	font: 400 normal 30px boogaloo;
+	text-align: center;
+}
+
+#_etusivu {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: fixed;
+	z-index: -3;
+}
+#_etusivu .sexshop {
+	background-repeat: no-repeat;
+	position: fixed;
+	left: 50%;
+	z-index: -2;
+}
+
+/*мобильный общий*/
+@media (max-width : 480px ){
+h1 {
+	color: #DC410D;
+	font: 400 normal 32px nixie-one;
+	text-align: left;
+	margin-left: 10px;
+}
+h3 {
+	color: #DC410D;
+	font: 400 normal 40px boogaloo;
+	text-align: center;
+}
+/*начальная страница*/
+#_etusivu {
+	height: 450px;
+	background-image: url(../image/480/Background480.jpg);
+}
+#_etusivu .sexshop {
+	width: 300px;
+	height: 160px;
+	margin-top: 264px;
+	margin-left: -150px;
+	background-image: url(../image/480/SexShop320.png);
+}
+
+}
+
+/*гибридный общий*/
+@media (max-width : 768px ){
+.body_sex p {
+	font: 400 normal 18px electrolize;
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	clear: both;
+}
+/*навигатор*/
+.navigator,
+#link1,
+#link2,
+#link3,
+#link4,
+#link5 {
+	display: none;
+}
+
+}
+
+/*гибридный общий*/
+@media (min-width : 769px ){
+h1 {
+	color: #DC410D;
+	font: 400 normal 60px nixie-one;
+	text-align: left;
+	margin-left: 20px;
+}
+.body_sex p {
+	font: 400 normal 20px electrolize;
+	margin-left: 40px;
+	margin-right: 40px;
+	clear: both;
+	float: left;
+}
+#link1 {
+	position: absolute;
+	top: -40px;
+}
+#link2 {
+	margin-top: -60px;
+	position: relative;
+	float: left;
+}
+#link3 {
+	position: relative;
+	margin-bottom: 45px;
+	float: left;
+
+}
+#link4 {
+	clear: both;
+	position: relative;
+	margin-bottom: 60px;
+
+}
+#link5 {
+	margin-bottom: 80px;
+}
+/*навигатор*/
+.navigator {
+	font: 400 normal 18px/60px nixie-one;
+	background-color: rgba(0,0,0,0.50);
+	text-align: center;
+	text-decoration: none;
+	z-index: 100;
+	color: #D9DADA;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 60px;
+}
+.etusivu,
+.seksikauppa,
+.esiintyjät,
+.palvelut,
+.yhteystiedot {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+}
+
+/*Планшетный общий*/
+@media (min-width : 481px ) and (max-width : 768px ){
+h1 {
+	color: #DC410D;
+	font: 400 normal 40px nixie-one;
+	text-align: left;
+	margin-left: 10px;
+}
+/*начальная страница*/
+#_etusivu {
+	height: 450px;
+	background-image: url(../image/768/Background768.jpg);
+}
+#_etusivu .sexshop {
+	width: 405px;
+	height: 170px;
+	margin-top: 250px;
+	background-image: url(../image/480/SexShop.png);
+	display: block;
+	margin-left: -200px;
+}
+
+}
+
+/*Планшетный общий*/
+@media (min-width : 769px ) and (max-width : 959px ){
+#_etusivu {
+	height: 400px;
+	top: 60px;
+	background-image: url(../image/768/Background768.jpg);
+}
+#_etusivu .sexshop {
+	width: 490px;
+	height: 190px;
+	margin-left: -190px;
+	margin-top: 100px;
+	background-image: url(../image/768/SexShop.png);
+}
+
+}
+
+/*Персональный общий*/
+@media (min-width : 960px ) and (max-width : 1199px ){
+#_etusivu {
+	height: 500px;
+	top: 60px;
+	background-image: url(../image/960/Background960.jpg);
+}
+#_etusivu .sexshop {
+	width: 589px;
+	height: 230px;
+	margin-left: -230px;
+	margin-top: 125px;
+	background-image: url(../image/960/SexShop.png);
+}
+
+}
+
+@media (min-width : 1200px ){
+#_etusivu {
+	background-position: 0% 60px;
+	background-image: url(../image/Background.jpg);
+	height: 700px;
+}
+#_etusivu .sexshop {
+	width: 690px;
+	height: 265px;
+	margin-left: -230px;
+	margin-top: 220px;
+	background-image: url(../image/SexShop.png);
+}
+/*
+img {
+	opacity:0.6;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+}
+img:hover {
+	transform: scale(0.95);
+	opacity:1;
+}
+*/
+}
